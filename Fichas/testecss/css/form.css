@@ -1,0 +1,38 @@
+.column-form {
+    width: 70%;
+    background-color: brown;
+    font-size: 14px;
+}
+
+.column-form div>p {
+    font-weight: bolder;
+    color: yellow;
+}
+
+.column-form div~p {
+    color: red;
+}
+
+.column-form div p+p {
+    color: blue;
+}
+
+.column-form section~p {
+    color: orange;
+}
+
+.column-form {
+    overflow: auto;
+}
+
+.column-form section~p+p {
+    color: green;
+}
+
+.column-form p:first-of-type {
+    font-weight: bold;
+}
+
+.column-form section~p+p::first-line {
+    color: black;
+}

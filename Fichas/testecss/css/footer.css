@@ -1,0 +1,26 @@
+.footer span {
+    height: 54px;
+    margin-left: 10px;
+    width: 54px;
+    background-size: 196px;
+    float: left;
+    border: 6px solid black;
+    z-index: 2;
+    position: relative;
+}
+
+.home {
+    background-color: gray;
+}
+
+.voltar {
+    background-color: gray;
+}
+
+.frente {
+    background-color: gray;
+}
+
+.footer span:hover {
+    background-color: white;
+}
