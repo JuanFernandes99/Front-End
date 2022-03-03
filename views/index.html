@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aula 18</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+
+
+    <table id="table">
+        <tr>
+            <th>Name</th>
+            <th>Profession</th>
+            <th>Password</th>
+            <th>Id</th>
+            <th>Options</th>
+        </tr>
+    </table>
+
+    <!--<ocultar coluna>-->
+    <br>
+    <button id="btn-ocultar-coluna">Ocultar Coluna</button>
+    <br><br>
+    <!--<ocultar tabela>-->
+    <button id="btn-ocultar-tabela">Ocultar Tabela</button>
+    <br><br>
+    <!--<mostrar tabela>-->
+    <button id="btn-mostrar-tabela">Mostrar Tabela</button>
+    <br><br>
+    <!--<mostrar coluna>-->
+    <button id="btn-mostrar-coluna">Mostrar Coluna</button>
+    <br><br>
+    <!--<mostrar lista Users>-->
+    <button id="btn-mostrar-users">Mostrar Users</button>
+    <br><br>
+    <!--<texto da  lista de Users>-->
+    <div id="prt-obj"></div>
+    <!--<mostrar lista Users modal>-->
+    <button id="btn-mostrar-users-modal">Mostrar Users em modal</button>
+    <br>
+
+    <!--<modal da  lista de Users>-->
+    <div id="modal-users">
+
+    </div>
+
+
+    <!--<modal para quando mudemos dados>-->
+    <div id="modal">
+        <label>New name</label>
+        <input id="i-name" type="text" />
+        <br>
+        <label>New password</label>
+        <input id="i-password" type="password" />
+        <br>
+        <input id="i-checkbox" type="checkbox" onclick="showPassword()">Show Password
+        <br>
+        <label>ID</label>
+        <input id="i-id" type="text" disabled/>
+        <br>
+        <button id="change">Alterar</button>
+    </div>
+
+
+
+
+</body>
+<script src="./js/script.js"></script>
+<script src="./js/pedido.js"></script>
+<script src="./js/alterar.js"></script>
+
+
+</html>
